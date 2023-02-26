@@ -3,6 +3,7 @@
 
 <p>
 A simple todo list created with animations and type safety
+<br />
 <i>Mainly for practice with React.js, Framer Motion, and Typescript</i>
 </p>
 
