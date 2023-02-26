@@ -1,0 +1,27 @@
+.filterChoice{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 1em;
+    font-weight: 900;
+}
+
+.filterChoice > :last-child{
+    grid-column: 1 / 3;
+}
+
+.filterChoice > li{
+    position: relative;
+}
+
+.selectedBubble{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    border-radius: 10px;
+    background-color: hsl(177, 76%, 79%);
+}
+

@@ -1,0 +1,47 @@
+/* Utility Classes */
+
+.gridify{
+    display: grid;
+}
+
+.twoCols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.threeCols{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fourCols{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.twoSpacesFromStart{
+    grid-column: 1 / span 2;
+}
+
+/* --------------- */
+
+
+.todoList{
+    padding: 0;
+    margin-bottom: 70px;
+    list-style-type: none;
+    width: 100%;
+    max-height: 30vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.todoItems{
+    padding: 10px 5px;
+    position: relative;
+    margin: 10px 0;
+}
+
+
+
+.inputEdit{
+    width: 75%;
+    margin-left: 5.6em;
+}
