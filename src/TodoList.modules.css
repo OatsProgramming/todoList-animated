@@ -1,29 +1,33 @@
-/* Utility Classes */
-
-.gridify{
+.gridify {
+    display: -ms-grid;
     display: grid;
 }
 
-.twoCols{
+.twoCols {
+    -ms-grid-columns: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
 }
 
-.threeCols{
+.threeCols {
+    -ms-grid-columns: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
 }
 
-.fourCols{
+.fourCols {
+    -ms-grid-columns: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
 }
 
-.twoSpacesFromStart{
+.twoSpacesFromStart {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
     grid-column: 1 / span 2;
 }
 
 /* --------------- */
 
 
-.todoList{
+.todoList {
     padding: 0;
     margin-bottom: 70px;
     list-style-type: none;
@@ -33,7 +37,7 @@
     overflow-y: auto;
 }
 
-.todoItems{
+.todoItems {
     padding: 10px 5px;
     position: relative;
     margin: 10px 0;
@@ -41,7 +45,7 @@
 
 
 
-.inputEdit{
+.inputEdit {
     width: 75%;
     margin-left: 5.6em;
 }
